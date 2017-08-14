@@ -232,14 +232,19 @@ footer i {
 
 
 @media screen and (min-width: 80rem) {
+    .logo {
+        float: left;
+        margin-right: 30px;
+    }
     navbar {
         display: block;
-        width: 100%;
+        width: 70%;
+        float: left;
     } 
     button {
         display: inline-block;
         float: left;
-        width: 49.8%;
+        width: 40%;
         margin-right: 10px;
     }
     button::first-child {
@@ -367,6 +372,5 @@ footer i {
     height: 2rem;
     font-family: 'Cabin', sans-serif;
     font-size: 1rem;
-    }
-    
+    } 
 }
